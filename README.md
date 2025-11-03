@@ -6,7 +6,7 @@ Pengguna dapat melakukan **registrasi, login, memilih varian brownies, mengisi a
 
 ---
 
-## 📱 Fitur Aplikasi
+## Fitur Aplikasi
 
 1. **Splash Screen**  
    Menampilkan logo dan nama aplikasi saat pertama kali dibuka.
