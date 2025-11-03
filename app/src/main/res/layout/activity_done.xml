@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top"
+    android:layout_gravity="center_horizontal"
+    android:background="#4C382B">>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:text="Halo Nana,"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#BAAFA0"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvPesan"
+        android:text="Terima kasih sudah memesan dan mohon tunggu di lokasi sampai kurir mengirimkan pesanan anda"
+        android:textSize="16sp"
+        android:textColor="#BAAFA0"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:text="Kirim"
+        android:backgroundTint="#BAAFA0"
+        android:textColor="#4C382B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"/>
+
+</LinearLayout>

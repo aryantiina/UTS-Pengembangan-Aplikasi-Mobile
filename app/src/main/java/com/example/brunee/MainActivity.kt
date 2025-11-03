@@ -1,0 +1,21 @@
+package com.example.brunee
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val btnStart = findViewById<Button>(R.id.btnStart)
+
+        btnStart.setOnClickListener {
+            // Nanti ini akan diarahkan ke halaman login
+            val intent = Intent(this, SignupActivity::class.java)
+            startActivity(intent)
+        }
+    }
+}

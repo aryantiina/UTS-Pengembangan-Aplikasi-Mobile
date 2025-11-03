@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C382B">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Alamat Pengiriman"
+        android:textColor="#BAAFA0"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:hint="Nama Lengkap"
+        android:textColor="#BAAFA0"
+        android:textColorHint="#F5EDE6"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_border"/>
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:hint="Alamat"
+        android:textColor="#BAAFA0"
+        android:textColorHint="#F5EDE6"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_border"/>
+
+    <EditText
+        android:id="@+id/etCatatan"
+        android:hint="Patokan alamat lengkap"
+        android:textColor="#BAAFA0"
+        android:textColorHint="#F5EDE6"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_border"/>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:text="Order dan Kirim"
+        android:textSize="15sp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#BAAFA0"
+        android:textColor="#4C382B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

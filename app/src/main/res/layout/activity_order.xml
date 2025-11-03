@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4C382B">
+
+    <!-- Konten utama -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Sapaan -->
+            <TextView
+                android:id="@+id/tvHaloOrder"
+                android:text="Halo Nana,"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#BAAFA0"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Pesanan -->
+            <TextView
+                android:id="@+id/tvPesanan"
+                android:text="Pesanan saya: -"
+                android:textColor="#BAAFA0"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navigasi bawah -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#BAAFA0"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:text="Home"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#BAAFA0"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4C382B"/>
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:text="Order"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#BAAFA0"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4C382B"/>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:text="Profile"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#BAAFA0"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4C382B"/>
+    </LinearLayout>
+
+</LinearLayout>
